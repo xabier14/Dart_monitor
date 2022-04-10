@@ -4,10 +4,7 @@ from zipfile import ZipFile
 from io import BytesIO
 import json
 from bs4 import BeautifulSoup
-from datetime import date
 import datetime
-import sys
-import re
 
 # 모든 회사별 dart의 고유번호 받기
 api_key = 'dart api key 입력'
